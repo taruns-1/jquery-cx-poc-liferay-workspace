@@ -20,8 +20,7 @@ async function getJQuery() {
     try {
         const { default: $ } = await import('jquery');
         console.log('Using jQuery from jsImportsMap:', $.fn.jquery);
-        window.jQuery = $;
-        window.$ = $;
+
         return { source: 'importmap', $: $ };
     } catch (error) {
         console.error('Failed to load jQuery:', error);
