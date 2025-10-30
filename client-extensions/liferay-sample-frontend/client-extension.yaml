@@ -1,0 +1,18 @@
+assemble:
+    -   from: build/static
+        into: static
+liferay-sample-frontend-js-import-maps-entry:
+    bareSpecifier: jquery
+    name: jQuery Import Maps Entry
+    type: jsImportMapsEntry
+    url: jquery.*.js
+liferay-sample-frontend-jquery-plugins:
+    htmlElementName: liferay-sample-frontend-jquery-plugins
+    instanceable: false
+    name: Liferay Sample Frontend Jquery Plugins
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+      - jquery-plugins.*.js
+    useESM: true
+

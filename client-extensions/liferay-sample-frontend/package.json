@@ -1,0 +1,16 @@
+{
+	"dependencies": {
+		"counterup2": "^2.0.2",
+		"jquery": "3.7.1"
+	},
+	"devDependencies": {
+		"webpack": "5.90.1",
+		"webpack-cli": "5.1.4"
+	},
+	"name": "@liferay/liferay-sample-frontend",
+	"private": true,
+	"scripts": {
+		"build": "webpack"
+	},
+	"version": "0.0.0"
+}
